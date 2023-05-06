@@ -1,0 +1,42 @@
+body {
+    background: #26335D;
+}
+body, *{
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.sch-container{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.sch-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sch-col-30 {
+    width: 30%;
+}
+.sch-col-50 {
+    width: 50%;
+}
+
+.sch-col-70 {
+    width: 70%;
+}
+
+.btn-bg-color {
+    background: #8D5CF6;
+    border-color: #8D5CF6 !important;
+    color: #fff;
+}
+
+.transparent-btn {
+    border-color: #fff !important;
+    color: #fff;
+}
