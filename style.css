@@ -297,6 +297,12 @@ section.package-section .sch-row {
     display: flex;
     flex-direction: row-reverse;
 }
+p.learn {
+    color: #b07dee;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 /* ------------popular-section---------- */
 .popular-content h1 {
     font-weight: 700;
@@ -321,4 +327,62 @@ p.practice {
     line-height: 24px;
     letter-spacing: 0.2px;
     color: #8D5CF6;
+}
+/* card section */
+.popular-card-item {
+    background: #eee;
+    border: none;
+    border-radius: 12px;
+    width: 330px;
+}
+p.tag-1 {
+    color: #c346d7;
+    font-size: 13px;
+    font-weight: 560;
+}
+p.course {
+    font-size: 16px;
+    font-weight: 600;
+}
+p.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+p.sale {
+    color: #737373;
+    font-size: 15px;
+    font-weight: 600;
+}
+span.dolor-bg {
+    color: #FF7B52;
+    font-weight: 600;
+}
+
+p.dolor {
+    font-size: 16px;
+    font-weight: 400;
+}
+button.card-btn {
+    border-radius: 15px;
+    padding: 10px;
+    color: #cb46d7;
+    font-size: 16px;
+    font-weight: 600;
+    border-color: #c827c8;
+}
+.card-content {
+    padding: 20px;
+}
+.popular-cards {
+    display: flex;
+    gap: 10px;
+    width: 1000px;
+}
+
+section.popular-section .sch-row {
+    display: flex;
+    flex-direction: column;
 }
