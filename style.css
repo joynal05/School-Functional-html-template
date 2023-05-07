@@ -386,3 +386,67 @@ section.popular-section .sch-row {
     display: flex;
     flex-direction: column;
 }
+/*--------- approve- content--------- */
+.approve-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.approve-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+    width: 405px;
+}
+
+p.practice {
+    color: #c327c3;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.card-items {
+    background: #eee;
+    width: 330px;
+    
+}
+
+.card-items p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+/* or 143% */
+    text-align: center;
+    letter-spacing: 0.2px;
+
+/* second-text-color */
+    color: #737373;
+    width: 160px;
+    text-align: center;
+}
+.id-desc img {
+    width: 50px;
+}
+
+p.name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8D5CF6;
+}
+
+p.degination {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
