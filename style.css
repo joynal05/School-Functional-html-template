@@ -229,3 +229,96 @@ section.service-icon-box-section {
 /* Service end */
 
 /* -------------------------  Home page End ------------------------- */
+
+
+/* ---------------expert-section------------------- */
+.expert-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 260px;
+}
+
+.expert-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 345px;
+}
+
+p.learn {
+    width: 117px;
+    height: 30px;
+    color: #b667b6;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.expert-content {
+    margin-left: 169px;
+    margin-top: 99px;
+}
+.sch-col-50 {
+    margin-top: 60px;
+}
+
+.expert-image img {
+    width: 520px;
+}
+/* --------------package------ ------*/
+
+.package-image img {
+    width: 502px;
+}
+
+.package-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 460px;
+}
+
+.package-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 345px;
+}
+section.package-section .sch-row {
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* ------------popular-section---------- */
+.popular-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 440px;
+}
+
+.popular-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 402px;
+}
+p.practice {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #8D5CF6;
+}
