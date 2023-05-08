@@ -422,16 +422,13 @@ p.practice {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-/* or 143% */
     text-align: center;
     letter-spacing: 0.2px;
-
-/* second-text-color */
     color: #737373;
     width: 160px;
     text-align: center;
 }
-.id-desc img {
+.id-desc .card-img1 {
     width: 50px;
 }
 
@@ -449,4 +446,25 @@ p.degination {
     line-height: 16px;
     letter-spacing: 0.2px;
     color: #252B42;
+}
+p.card-des {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.id-desc {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+section.approve-section .sch-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.approve-cards {
+    display: flex;
+    gap: 11px;
 }
