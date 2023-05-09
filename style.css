@@ -1145,3 +1145,33 @@ section.client-section .sch-row {
     flex-direction: column;
     align-content: space-between;
 }
+.link-items ul li a {
+    color: #eee;
+    line-height: 31px;
+    font-size:19px;
+}
+.links-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 119px;
+    margin-top: 99px;
+}
+/* footer */
+section.footer-section .sch-container {
+    background: #eee;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 213px; */
+    padding: 11px;
+    margin-left: 109px;
+}
+
+.footer-icons {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-left: 475px;
+}
