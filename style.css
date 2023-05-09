@@ -1171,7 +1171,13 @@ section.footer-section .sch-container {
 }
 
 .footer-icons {
-    /* display: flex; */
-    /* flex-direction: row; */
+  
     margin-left: 475px;
+}
+.footer-content p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
 }
