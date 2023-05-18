@@ -306,6 +306,37 @@ span.course-tag {
     height: 300px;
     object-fit: cover;
 }
+.single-course {
+    background: #eee;
+}
+
+section.service-courses-section  .sch-row:nth-child(2) {
+    gap: 10px;
+}
+
+section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
+    width: calc(33.33% - 7px);
+}
 /* Course end */
+
+
+/* testimonial start */
+.single-testimonial {
+    background: #fff;
+    padding: 30px;
+}
+
+
+
+/* testimonial End */
+
+
+
+
+/* FAQ star */
+.single-faq {
+    background: #fff;
+}
+/* FAQ end */
 
 /* -------------------------  Home page End ------------------------- */

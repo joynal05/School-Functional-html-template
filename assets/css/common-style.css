@@ -43,7 +43,9 @@ img {
 .sch-col-70 {
     width: 70%;
 }
-
+.sch-col-100{
+    width: 100%;
+}
 .btn-bg-color {
     background: #8D5CF6;
     border-color: #8D5CF6 !important;
@@ -78,4 +80,10 @@ img {
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
+}
+.sch-mt-100{
+    margin-top: 100px;
+}
+.sch-text-center{
+    text-align: center;
 }
