@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/SK/Downloads/tutorify-main"
+		},
+		{
+			"path": "../tutorify project"
+		},
+		{
+			"path": "../hotel-site"
+		},
+		{
+			"path": "../school-function-project-html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "school-function-project-html"
+	}
+}
