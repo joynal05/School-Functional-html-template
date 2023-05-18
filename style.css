@@ -319,56 +319,40 @@ section.service-courses-section  .sch-row:nth-child(2) {
 }
 
 section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
-    width: calc(33.33% - 7px);
+    width: calc(33.33% - 7px);}
+
     .sch-section-head p {
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-    /* or 143% */
         letter-spacing: 0.2px;
-    
-    /* light-text-color */
         color: #FFFFFF;
+        /* width: 220px; */
     }
+
     
-    h3.course-title {
-        /* font-weight: 700; */
-        /* font-size: 16px; */
-        /* line-height: 24px; */
-    /* identical to box height, or 150% */
-        /* letter-spacing: 0.1px; */
-    
-    /* text-color */
-        /* color: #252B42; */
-    }
-    
+  
     .course-content {
         display: flex;
         flex-direction: column;
-        padding: 20px;
-    }
+        padding: 20px;}
     
-    p {}
     
+   
     .course-desc p {
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-    /* or 143% */
         letter-spacing: 0.2px;
-    
-    /* second-text-color */
         color: #737373;
+        width: 280px;
     }
     
     .course-seles span {
         font-weight: 700;
         font-size: 14px;
         line-height: 24px;
-    /* identical to box height, or 171% */
         letter-spacing: 0.2px;
-    
-    /* second-text-color */
         color: #737373;
     }
     
@@ -376,24 +360,19 @@ section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;
-    /* identical to box height, or 150% */
         text-align: center;
         letter-spacing: 0.1px;
-    
-    /* secondary-color-1 */
         color: #FF7B52;
     }
     
-    a {}
+
     
     .course-icons a {
         margin-top: 52px;
         background: white;
         border-radius: 5px;
-        /* position: absolute; */
         margin: auto;
         color: black;
-        /* width: 200px; */
         display: inline-block;
     }
     
@@ -404,8 +383,15 @@ section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
     
     .course-icons i {
         font-size: 27px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
     }
-}
+    i.fa-solid.fa-star {
+        color: #f3e01f;
+    }
+  
+
 /* Course end */
 
 
@@ -415,7 +401,9 @@ section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
     padding: 30px;
 }
 
-
+.avater h4 {
+    color: #8D5CF6;
+}
 
 /* testimonial End */
 
