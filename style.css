@@ -396,14 +396,46 @@ section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
 
 
 /* testimonial start */
+
 .single-testimonial {
     background: #fff;
     padding: 30px;
+
 }
 
 .avater h4 {
     color: #8D5CF6;
 }
+.single-testimonial .avater {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avater .name {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+
+.avater .name h4 {
+    margin: 0;
+}
+
+.single-testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.testimonials-section .sch-row:nth-child(2) .sch-col-33 {
+    width: calc(33.33%-8px);
+}
+
+
+
+
+
 
 /* testimonial End */
 
@@ -413,6 +445,9 @@ section.service-courses-section .sch-row:nth-child(2) .sch-col-33 {
 /* FAQ star */
 .single-faq {
     background: #fff;
+}
+.sch-row .sch-col-33 .single-faq {
+    width: 346px;
 }
 /* FAQ end */
 
